@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Robert K | Web Developer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .project {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      color: #888;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Robert Njunji</h1>
+    <p>Junior Web Developer | JavaScript, HTML, CSS</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! I'm a web developer from Kenya, focused on creating clean and functional websites. I specialize in fixing bugs, building simple web features, and improving design layouts.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <<div class="project">
+  <h3>To-Do List App</h3>
+  <p>A simple JavaScript to-do list with add/delete functionality and persistent data using localStorage.</p>
+  <a href="https://github.com/Robert73J/TodoList1" target="_blank">View Code</a>
+</div>
+
+<div class="project">
+  <h3>Multiplication Table Generator</h3>
+  <p>Generates dynamic multiplication tables using HTML and JavaScript. Great for practice and fun.</p>
+  <a href="https://github.com/Robert73J/multiplication-table" target="_blank">View Code</a>
+</div>
+
+<div class="project">
+  <h3>Responsive Landing Page</h3>
+  <p>A basic, mobile-friendly HTML/CSS page with sections like About, Services, and Contact.</p>
+  <a href="https://github.com/Robert73J/LandingPage" target="_blank">View Code</a>
+</div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: robertnjunji@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/Robert73J" target="_blank">github.com/Robert73J</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Robert K. All rights reserved.
+  </footer>
+</body>
+</html>
